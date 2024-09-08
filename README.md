@@ -1,1 +1,1 @@
-# semt-kahvecisi
+Bu projede bir semt cafe işletmesinin web sitesi tasarım ve kodlama çalışması yürütülecektir.
