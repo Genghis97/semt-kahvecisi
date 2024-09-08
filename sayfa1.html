@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sayfa 1</title>
+    <style>
+        * {box-sizing: border-box;}
+        #flex-kutu {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start; /*boşlukları dağıtma*/
+            align-items:center;
+        }
+        #flex-kutu p {
+        background-color: lightblue;
+        margin: 0px;
+        width: 200px;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div id="flex-kutu">
+        <img src="https://picsum.photos/id/14/250/200" alt="">
+        <p>Güzel bir görsel örneği</p>
+        <a href="#">Daha Fazla Bilgi...</a>
+    </div>
+
 </body>
 </html>
